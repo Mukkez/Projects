@@ -1,0 +1,161 @@
+@font-face {
+	font-family: 'News Cycle';
+	font-style: normal;
+	src: url(../fonts/News_Cycle/NewsCycle-Regular.ttf);
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font: 700 1em 'News Cycle', sans-serif;
+	letter-spacing: 0.15em;
+	color: #ff6;
+	background: #111;
+	overflow: hidden;
+	margin: 0;
+}
+.star {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background-color: white;
+}
+.stop {
+	display: none;
+}
+
+.dialog {
+	position: relative;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.dialog-content {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: auto;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 1.5rem;
+	width: 1000px;
+	height: 490px;
+}
+.dialog-content p {
+	width: 470px;
+	font-size: 2.2rem;
+	margin: 100px 0 0 25px;
+	line-height: 100px;
+	text-align: center;
+}
+#logo {
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.starCode article {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	z-index: 1;
+}
+.starCode .start {
+	font-size: 200%;
+	width: 14em;
+	margin: -4em 0 0 -7em;
+	text-align: center;
+	cursor: pointer;
+	z-index: 99999;
+}
+.starCode .start span {
+	color: #4bd5ee;
+}
+.starCode .intro {
+	width: 15em;
+	margin: 0 0 0 -7.5em;
+	font-size: 200%;
+	font-weight: 400;
+	color: #4bd5ee;
+	opacity: 0;
+	animation: intro 6s ease-out 1s;
+}
+#logo {
+	opacity: 0;
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	height: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	animation: logo 100s ease-out infinite;
+}
+.starCode .titles {
+	width: 16.65em;
+	margin: 0 0 0 -8.325em;
+	top: auto;
+	bottom: 0;
+	height: 50em;
+	font-size: 350%;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 50% 95%;
+	transform: perspective(300px) rotateX(25deg);
+}
+.starCode .titles > div {
+	position: absolute;
+	top: 100%;
+	animation: titles 81s linear 13s;
+}
+.starCode .titles > div > p {
+	margin: 1.35em 0 1.85em 0;
+	line-height: 1.25em;
+	backface-visibility: hidden;
+}
+
+@keyframes intro {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes logo {
+	9% {
+		transform: translateX(-50%) translateY(-50%) scale(2);
+		opacity: 0;
+	}
+	9.1% {
+		opacity: 1;
+	}
+	14% {
+		opacity: 1;
+	}
+	18% {
+		transform: translateX(-50%) translateY(-50%) scale(0.1);
+		opacity: 0;
+	}
+}
+@keyframes titles {
+	0% {
+		top: 100%;
+		opacity: 1;
+	}
+	95% {
+		opacity: 1;
+	}
+	100% {
+		top: 20%;
+		opacity: 0;
+	}
+}

@@ -1,0 +1,57 @@
+/* @font-face {
+	font-family: 'Latio';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/Lato/Lato-Regular.ttf);
+} */
+:root {
+	--primary-color: white;
+	--secondary-color: Black;
+}
+.dark_mode {
+	--primary-color: #21272d;
+	--secondary-color: white;
+}
+* {
+	padding: 0;
+	margin: 0;
+	color: var(--secondary-color);
+	font-size: 20px;
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: var(--primary-color);
+}
+h1 {
+	font-size: 42px;
+}
+.wrapper {
+	height: min-content;
+	width: 70%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+button {
+	height: 50px;
+	width: 200px;
+	margin-top: 20px;
+	background: var(--secondary-color);
+	color: var(--primary-color);
+	border: none;
+	border-radius: 100px;
+	transition: 100px ease;
+	user-select: none;
+}
+button:hover {
+	width: 210px;
+}
+button:focus {
+	outline: none;
+}
