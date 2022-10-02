@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="icon" type="image/x-icon" href="assets/img/favicon.svg" />
+		<script type="text/javascript" src="assets/js/main.js" defer></script>
+		<title>Pokedex</title>
+	</head>
+
+	<body id="poke-app" class="">
+		<img src="assets/img/pikachu-running.gif" id="pikaRun" class="pika-run" alt="" />
+		<section id="modulWelcome" class="dialogTrainer">
+			<h1>Willkommen</h1>
+			<img src="assets/img/pikachu.png" class="pikachu" alt="" />
+			<div class="searchbox-wrap">
+				<input type="text" id="nameTrainer" placeholder="Gib dein Namen ein..." />
+				<button id="submit" onclick="welcome()"><span>Senden</span> </button>
+			</div>
+		</section>
+		<section>
+			<img src="assets/img/pikachu-running.gif" id="loadingImg" style="display: none" alt="" />
+		</section>
+		<section id="modulOak" class="dialog" style="display: none">
+			<img class="ash" src="assets/img/ash.png" alt="logo" />
+			<img class="logo" src="assets/img/logo.webp" alt="logo" />
+			<img class="oak" src="assets/img/oak.png" alt="oak" />
+			<div class="typewriter dialogCard">
+				<div id="text"></div>
+			</div>
+			<div class="pok-container">
+				<div class="pok pok1">
+					<img src="assets/img/1.svg" alt="" onclick="bisasam(); startPokedex();" />
+				</div>
+				<div class="pok pok2">
+					<img src="assets/img/4.svg" alt="" onclick="glumanda(); startPokedex();" />
+				</div>
+				<div class="pok pok3">
+					<img src="assets/img/7.svg" alt="" onclick=" schiggy(); startPokedex();" />
+				</div>
+			</div>
+		</section>
+		<div id="listPokemonAll" class="poke-container" data-modal="modal-name">
+			<h2 id="selectPokemon"></h2>
+		</div>
+		<div class="modal" id="modal-name">
+			<div class="modal-sandbox" onclick="closePopup()"></div>
+			<div class="modal-box">
+				<div class="close-modal" onclick="closePopup()">✖</div>
+				<div id="pokeCardPopup" class="pokemonContainer"></div>
+			</div>
+		</div>
+	</body>
+</html>

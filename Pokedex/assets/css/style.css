@@ -1,0 +1,1092 @@
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts//Montserrat-ExtraBold.ttf);
+}
+* {
+	box-sizing: broder-box;
+	font-family: 'Montserrat', sans-serif;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background: #ffc660;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	font-weight: 500;
+}
+.bisasam {
+	background: linear-gradient(180deg, #c2fbe4, #7ac74c);
+	background-attachment: fixed;
+}
+.glumanda {
+	background: linear-gradient(180deg, #ffcfcf, #ee8130);
+	background-attachment: fixed;
+}
+.schiggy {
+	background: linear-gradient(180deg, #bfeaff, #6390f0);
+	background-attachment: fixed;
+}
+.logo {
+	margin: 2rem;
+	width: 25%;
+}
+/* ========================== Pokemon Background Site + Popup ========================== */
+.pokemon.-Feuer,
+.pokemonPopup.-Fire {
+	background-color: #ffb2b2;
+	background: linear-gradient(180deg, #ffcfcf, #ee8130);
+}
+.pokemon.-Pflanze,
+.pokemonPopup.-Grass {
+	/* background-color: #92ff99; */
+	background: linear-gradient(180deg, #c2fbe4, #7ac74c);
+}
+.pokemon.-Elektro,
+.pokemonPopup.-Electric {
+	/* background-color: #fce587; */
+	background: linear-gradient(180deg, #fdefb8, #e3d613);
+}
+.pokemon.-Wasser,
+.pokemonPopup.-Water {
+	/* background-color: #a6e2ff; */
+	background: linear-gradient(180deg, #bfeaff, #6390f0);
+}
+.pokemon.-Boden,
+.pokemonPopup.-Ground {
+	/* background-color: #fee5cd; */
+	background: linear-gradient(180deg, #fce9d7, #ae8d39);
+}
+.pokemon.-Gestein,
+.pokemonPopup.-Rock {
+	/* background-color: #cbcbcb; */
+	background: linear-gradient(180deg, #cbcbcb, #b6a136);
+}
+.pokemon.-Fee,
+.pokemonPopup.-Fairy {
+	/* background-color: #fceaff; */
+	background: linear-gradient(180deg, #fceaff, #e276ac);
+}
+.pokemon.-Gift,
+.pokemonPopup.-Poison {
+	/* background-color: #c5f1ce; */
+	background: linear-gradient(180deg, #d5ffde, #a33ea1);
+}
+.pokemon.-Käfer,
+.pokemonPopup.-Bug {
+	/* background-color: #f8d5a3; */
+	background: linear-gradient(180deg, #feebcf, #a6b91a);
+}
+.pokemon.-Drache,
+.pokemonPopup.-Dragon {
+	/* background-color: #97b3e6; */
+	background: linear-gradient(180deg, #97b3e6, #6f35fc);
+}
+.pokemon.-Psycho,
+.pokemonPopup.-Psychic {
+	/* background-color: #fdcdfd; */
+	background: linear-gradient(180deg, #fdcdfd, #f95587);
+}
+.pokemon.-Flug,
+.pokemonPopup.-Flying {
+	/* background-color: #f5f5f5; */
+	background: linear-gradient(180deg, #f5f5f5, #a98ff3);
+}
+.pokemon.-Kampf,
+.pokemonPopup.-Fighting {
+	/* background-color: #e6e0d4; */
+	background: linear-gradient(180deg, #e6e0d4, #c22e28);
+}
+.pokemon.-Normal,
+.pokemonPopup.-Normal {
+	/* background-color: #a0a29f; */
+	background: linear-gradient(180deg, #dbdbdb, #707070);
+}
+.pokemon.-Geist,
+.pokemonPopup.-Ghost {
+	/* background-color: #e4d7fa; */
+	background: linear-gradient(180deg, #e4d7fa, #735797);
+}
+.pokemon.-Eis,
+.pokemonPopup.-Ice {
+	/* background-color: #d0ffff; */
+	background: linear-gradient(180deg, #d0ffff, #96d9d6);
+}
+
+/* ========================== Pokemon Background Typ + Sliderbar ========================== */
+.pokemon .type-container .-Shadow {
+	background-color: #0e2e4c;
+}
+.pokemon .type-container .-Fee,
+.-Fairy {
+	background-color: #cd8dcd;
+}
+.pokemon .type-container .-Dark {
+	background-color: #785442;
+}
+.pokemon .type-container .-Drache,
+.-Dragon {
+	background-color: #7866ef;
+}
+.pokemon .type-container .-Eis,
+.-Ice {
+	background-color: #78deff;
+}
+.pokemon .type-container .-Psycho,
+.-Psychic {
+	background-color: #d34882;
+}
+.pokemon .type-container .-Elektro,
+.-Electric {
+	background-color: #d7ae27;
+}
+.pokemon .type-container .-Pflanze,
+.-Grass {
+	background-color: #66b047;
+}
+.pokemon .type-container .-Wasser,
+.-Water {
+	background-color: #2f9aff;
+}
+.pokemon .type-container .-Feuer,
+.-Fire {
+	background-color: #ea3521;
+}
+.pokemon .type-container .-Stahl,
+.-Steel {
+	background-color: #abacbc;
+}
+.pokemon .type-container .-Geist,
+.-Ghost {
+	background-color: #6666bc;
+}
+.pokemon .type-container .-Normal {
+	background-color: #aeaea6;
+}
+.pokemon .type-container .-Kampf,
+.-Fighting {
+	background-color: #9d4637;
+}
+.pokemon .type-container .-Flug,
+.-Flying {
+	background-color: #669aff;
+}
+.pokemon .type-container .-Gift,
+.-Poison {
+	background-color: #ab549a;
+}
+.pokemon .type-container .-Gestein,
+.-Rock {
+	background-color: #9f9155;
+}
+.pokemon .type-container .-Käfer,
+.-Bug {
+	background-color: #9fad1b;
+}
+.pokemon .type-container .-Boden,
+.-Ground {
+	background-color: #d97746;
+}
+
+/* ========================== Pokemon Home Name Site ========================== */
+.pika-run {
+	position: absolute;
+	height: 90px;
+	top: 0;
+	left: 0;
+	animation: 10s pikarun infinite;
+}
+@keyframes pikarun {
+	0% {
+		transform: scaleX(-1);
+		left: 2%;
+		transform: scaleX(1);
+	}
+	40% {
+		left: 90%;
+		transform: scaleX(1);
+	}
+	50% {
+		left: 92%;
+		transform: scaleX(-1);
+	}
+	100% {
+		left: 2%;
+		transform: scaleX(-1);
+	}
+}
+
+.dialogTrainer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 2fr);
+	margin-top: 80px;
+	width: 95%;
+	height: 80%;
+	background: url(../img/background.png) center/cover no-repeat;
+	background-size: 100% 100%;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 1.5rem;
+	overflow: hidden;
+}
+.dialogTrainer h1 {
+	grid-column: 2/4;
+	grid-row: 1/3;
+	color: yellow;
+	font-size: 6rem;
+}
+.pikachu {
+	grid-column: 1/3;
+	grid-row: 1/4;
+	height: 350px;
+	margin: 195px 0 0 120px;
+}
+.searchbox-wrap {
+	grid-column: 3/5;
+	grid-row: 2/3;
+	display: flex;
+	width: 500px;
+	margin: 80px 0 0 -50px;
+}
+.searchbox-wrap input {
+	flex: 1;
+	padding: 30px 20px;
+	font-size: 1.1em;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border: none;
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+.searchbox-wrap input:focus {
+	outline: none;
+}
+.searchbox-wrap button {
+	padding-right: 10px;
+	background-color: #fff;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+	border: none;
+	cursor: pointer;
+	cursor: hand;
+}
+.searchbox-wrap button span {
+	margin-left: 50px;
+	padding: 24px 45px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #fff;
+	background-color: #f54e59;
+	border-radius: 20px;
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+.searchbox-wrap button span:hover {
+	background-color: #d6121f;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 1230px) {
+	.dialogTrainer {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 2fr);
+	}
+	.dialogTrainer h1 {
+		grid-column: 1/4;
+		grid-row: 1/5;
+		font-size: 4.5rem;
+		margin: 100px auto;
+	}
+	.pikachu {
+		grid-column: 1/3;
+		grid-row: 2/4;
+		height: 350px;
+		margin: 150px auto 0;
+	}
+	.searchbox-wrap {
+		grid-column: 1/3;
+		grid-row: 2/3;
+		height: 100px;
+		margin: 0 auto;
+	}
+}
+/* ========================== Pokemon Eich Site ========================== */
+
+.dialog {
+	background: url(../img/background.png) center/cover no-repeat;
+	background-size: 100% 100%;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin-top: 20px;
+	width: 95%;
+	height: 80%;
+	overflow: hidden;
+}
+.logo {
+	width: 85%;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	transform: rotate(343deg);
+	margin: 45px 0 0 10px;
+}
+.dialog .oak {
+	grid-column: 5/6;
+	grid-row: 2/3;
+	width: 100%;
+	margin: -40px 0 0 0;
+	animation: fadeIn 4s ease-in-out;
+}
+
+.dialog .ash {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	width: 57%;
+	transform: rotateY(180deg);
+	margin: -40px 0 0px 70px;
+	animation: fadeIn 4s ease-in-out;
+}
+
+.dialogCard {
+	display: flex;
+	padding: 0.75rem 1.5rem;
+	background: #ecf0f1;
+	border-radius: 20px;
+	grid-column: 2/5;
+	grid-row: 1/3;
+	line-height: 1.3;
+	margin: 65px 0 0 0px;
+	animation: fadeIn 6s ease-in-out;
+	height: 230px;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.pok-container {
+	display: flex;
+	grid-column: 2/5;
+	grid-row: 2/3;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	margin: 100px 0 0 0;
+	height: 30%;
+}
+.pok {
+	opacity: 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	margin: 0px 15px 0 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pok1 {
+	animation: pok1 4s forwards;
+	animation-delay: 25.7s;
+	cursor: pointer;
+}
+@keyframes pok1 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.pok2 {
+	animation: pok2 4s forwards;
+	animation-delay: 26.5s;
+	cursor: pointer;
+}
+@keyframes pok2 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.pok3 {
+	animation: pok3 4s forwards;
+	animation-delay: 27.5s;
+	cursor: pointer;
+}
+@keyframes pok3 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.pok img {
+	max-width: 70%;
+	max-height: 70%;
+}
+@media screen and (max-width: 1320px) {
+	.dialog .oak {
+		margin: 0 0 0 0;
+	}
+
+	.dialog .ash {
+		margin: 0 0 0 70px;
+	}
+}
+@media screen and (max-width: 1183px) {
+	.dialog .oak {
+		grid-row: 2/2;
+	}
+
+	.dialog .ash {
+		grid-row: 2/2;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.dialog .oak {
+		grid-row: 2/2;
+	}
+
+	.dialog .ash {
+		grid-row: 2/2;
+	}
+	.dialogCard {
+		height: 300px;
+	}
+	.pok-container {
+		margin: 135px 0 0 0;
+	}
+}
+
+/* ========================== Pokemon Home Site ========================== */
+.poke-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 90%;
+}
+#selectPokemon {
+	width: 80%;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 900;
+}
+@media screen and (min-width: 1500px) {
+	.poke-container {
+		max-width: 70%;
+	}
+}
+.card {
+	animation-name: card;
+	animation-duration: 0.4s;
+	animation-timing-function: cubic-bezier(0, 0, 0.3, 1.6);
+}
+.pokemon {
+	background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 30px 15px rgba(100, 100, 100, 1);
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: row-reverse;
+	width: 320px;
+	height: 180px;
+}
+@keyframes card {
+	0% {
+		margin-right: -50px;
+		opacity: 0;
+	}
+	100% {
+		margin-right: 0;
+		opacity: 1;
+	}
+}
+
+.pokemon .img-container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 50%;
+	height: 80%;
+	margin: 0px 15px 0 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pokemon .img-container img {
+	max-width: 70%;
+	max-height: 70%;
+}
+
+.pokemon .info {
+	width: 50%;
+	height: 75%;
+}
+
+.pokemon .number {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 5px 10px;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
+.pokemon .type-container {
+	border-radius: 5px;
+	padding: 3px 8px;
+	color: black;
+	font-weight: 600;
+	font-size: 14px;
+	opacity: 0.8;
+}
+.pokemon .type-container span {
+	padding: 2px 8px;
+	margin: 3px 2px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* ========================== Pokemon Popup Background  ========================== */
+.modal-sandbox {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: transparent;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-box {
+	position: relative;
+	width: 90%;
+	height: 90%;
+	max-width: 3200px;
+	margin: 25px auto 0;
+	animation-name: modalbox;
+	animation-duration: 0.4s;
+	animation-timing-function: cubic-bezier(0, 0, 0.3, 1.6);
+}
+
+.modal-body {
+	background: #eceff1;
+	padding: 60px 40px;
+}
+
+@-webkit-keyframes modalbox {
+	0% {
+		top: -250px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes modalbox {
+	0% {
+		top: -250px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+/* Close Button */
+.close-modal {
+	cursor: pointer;
+	position: absolute;
+	right: 0.2%;
+	font-size: 3rem;
+	padding: 10px;
+}
+/* ========================== Pokemon Popup Card  ========================== */
+
+.pokemonContainer {
+	display: flex;
+	flex-direction: row;
+	height: 105%;
+}
+.pokemonPopup {
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	display: grid;
+	grid-template-columns: repeat(5, 5fr) 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	grid-auto-rows: auto;
+	grid-auto-flow: column;
+	grid-auto-columns: auto;
+	border-radius: 20px;
+	width: 100%;
+}
+
+/* ========================== Pokemon Name + Img + Typ + Stats  ========================== */
+
+.pokeName {
+	background-color: rgba(249, 250, 251, 0.6);
+	grid-column: 1/2;
+	grid-row: 1/3;
+	border-radius: 20px;
+	margin: 10px;
+	text-align: center;
+}
+.pokeName .nameNumber h1 {
+	display: block;
+	margin: 10px 0px 0 0;
+	padding: 10px;
+}
+.pokeName .nameNumber p {
+	font-size: 4rem;
+	font-weight: 900;
+	padding: 0 10px;
+	display: inline;
+}
+.pokeName .img-container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 190px;
+	height: 190px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pokeName .img-container img {
+	height: 75%;
+	image-rendering: pixelated;
+}
+.pokeName .info {
+	margin: 0 auto;
+	width: 95%;
+}
+.pokeName .info p {
+	background-color: rgb(107, 114, 128, 0.3);
+	border-radius: 1.5rem;
+	line-height: 2rem;
+}
+.pokeName .info span {
+	font-weight: 700;
+	margin: 0 0 0 5px;
+}
+
+/* ========================== Pokemon Informationen ========================== */
+.about {
+	grid-column: 2/4;
+	grid-row: 1/2;
+	border-radius: 20px;
+	margin: 10px;
+	background-color: rgba(249, 250, 251, 0.6);
+	min-width: 465px;
+}
+.about h2 {
+	background-color: rgb(107, 114, 128, 0.3);
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 700;
+	border-radius: 1.5rem;
+	width: 95%;
+	text-align: center;
+	margin: 20px auto;
+}
+.about p {
+	margin: 0px 15px 15px 20px;
+	font-size: 1rem;
+	/* width: 440px; */
+	width: 95%;
+}
+
+.typing-demo {
+	/* width: 22ch; */
+	animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	font-size: 2em;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
+/* ========================== Pokemon Progressbar Stats ========================== */
+
+.stats {
+	background-color: rgba(249, 250, 251, 0.6);
+	border-radius: 20px;
+	margin: 10px;
+	grid-column: 4/6;
+	grid-row: 1/2;
+}
+.stats h2 {
+	background-color: rgb(107, 114, 128, 0.3);
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 700;
+	border-radius: 1.5rem;
+	width: 95%;
+	text-align: center;
+	margin: 20px auto;
+}
+.stats p {
+	margin: 0 0 -12px 18px;
+	font-weight: 600;
+}
+.stats .progress {
+	background: rgba(31, 31, 31, 0.138);
+	border-radius: 20px;
+	margin: 15px;
+	height: 20px;
+}
+.stats .progress span {
+	margin: 0 5px 0 0;
+	font-size: 0.9rem;
+	text-align: right;
+	color: #000;
+	font-weight: bold;
+}
+
+.stats .progress-done-hp {
+	background-image: linear-gradient(45deg, hsla(0, 0%, 100%, 0.15) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, 0.15) 0, hsla(0, 0%, 100%, 0.15) 75%, transparent 0, transparent);
+	background-size: 1rem 1rem;
+	border-radius: 20px;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 18px;
+	opacity: 0;
+	padding: 2px 0 0 0;
+	max-width: 100%;
+	animation: hp 3s normal forwards, animate-stripes 3s linear infinite;
+}
+@keyframes hp {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: var(--hp);
+	}
+}
+@keyframes animate-stripes {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 60px 0;
+	}
+}
+
+.stats .progress-done-attack {
+	background-image: linear-gradient(45deg, hsla(0, 0%, 100%, 0.15) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, 0.15) 0, hsla(0, 0%, 100%, 0.15) 75%, transparent 0, transparent);
+	background-size: 1rem 1rem;
+	border-radius: 20px;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 18px;
+	opacity: 0;
+	padding: 2px 0 0 0;
+	max-width: 100%;
+	animation: attack 3s normal forwards, animate-stripes 3s linear infinite;
+}
+@keyframes attack {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: var(--attack);
+	}
+}
+@keyframes animate-stripes {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 60px 0;
+	}
+}
+.stats .progress-done-defense {
+	background-image: linear-gradient(45deg, hsla(0, 0%, 100%, 0.15) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, 0.15) 0, hsla(0, 0%, 100%, 0.15) 75%, transparent 0, transparent);
+	background-size: 1rem 1rem;
+	border-radius: 20px;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 18px;
+	opacity: 0;
+	padding: 2px 0 0 0;
+	max-width: 100%;
+	animation: defense 3s normal forwards, animate-stripes 3s linear infinite;
+}
+@keyframes defense {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: var(--defense);
+	}
+}
+@keyframes animate-stripes {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 60px 0;
+	}
+}
+.stats .progress-done-speed {
+	background-image: linear-gradient(45deg, hsla(0, 0%, 100%, 0.15) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, 0.15) 0, hsla(0, 0%, 100%, 0.15) 75%, transparent 0, transparent);
+	background-size: 1rem 1rem;
+	border-radius: 20px;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 18px;
+	opacity: 0;
+	padding: 2px 0 0 0;
+	max-width: 100%;
+	animation: speed 3s normal forwards, animate-stripes 3s linear infinite;
+}
+@keyframes speed {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: var(--speed);
+	}
+}
+@keyframes animate-stripes {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 60px 0;
+	}
+}
+/* ========================== Pokemon Evolution ========================== */
+.evolution {
+	grid-column: 2/7;
+	grid-row: 2/3;
+	background-color: rgba(249, 250, 251, 0.6);
+	border-radius: 20px;
+	margin: 10px;
+}
+.evolution .evol-title h2 {
+	background-color: rgb(107, 114, 128, 0.3);
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 700;
+	border-radius: 1.5rem;
+	width: 95%;
+	text-align: center;
+	margin: 20px auto;
+}
+.evolution .evol-cycle {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.pokemon-evolution .evol-next-info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+.evolution .evol-next-info .img-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	/* width: 140px;
+	height: 140px; */
+	width: 13vw;
+	height: 25vh;
+	margin: 0 auto;
+}
+.evolution .evol-next-info .info {
+	margin-top: 10px;
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+.evolution .evol-next-info .img-container img {
+	height: 70%;
+}
+.evolution .evol-next {
+	margin-top: 25px;
+	height: 60px;
+}
+.evolution .poke-arrow {
+	height: 60px;
+}
+
+.evolution .evol-next-info .img-container-evoli {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 8vw;
+	height: 12vh;
+	margin: 0 auto;
+}
+.evolution .evol-next-info .img-container-evoli img {
+	height: 70%;
+}
+.evolution .poke-arrow-evoli {
+	width: 50px;
+}
+
+@media screen and (max-width: 1182px) {
+	.modal-box {
+		width: 90%;
+		height: auto;
+	}
+	.pokemonPopup {
+		display: grid;
+		grid-template-rows: auto 1fr;
+		grid-template-columns: auto 1fr;
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		width: 100%;
+	}
+	.pokeName {
+		grid-column: 1/3;
+		grid-row: 1/2;
+	}
+
+	.about {
+		grid-column: 1/3;
+		grid-row: 2/3;
+		width: auto;
+	}
+	.about p {
+		width: 95%;
+	}
+	.stats {
+		grid-column: 1/3;
+		grid-row: 3/4;
+	}
+	.evolution {
+		grid-column: 1/3;
+		grid-row: 4/5;
+		margin-bottom: 20px;
+	}
+	.evolution .evol-next-info .img-container {
+		width: 250px;
+		height: 250px;
+	}
+	.evolution .evol-next-info .info {
+		text-align: center;
+	}
+	.evolution .poke-arrow {
+		width: 60px;
+		transform: rotate(90deg);
+		margin: -17px;
+	}
+	.evolution .evol-next-info .img-container-evoli {
+		width: 23vw;
+		height: 28vh;
+	}
+	.poke-arrow-evoli {
+		width: 60px;
+		transform: rotate(90deg);
+		margin: -17px;
+	}
+	.evolution .evol-cycle {
+		margin-bottom: 50px;
+	}
+	.evolution .evol-cycle {
+		margin-bottom: 50px;
+		display: flex;
+		align-items: center;
+		align-content: center;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 540px) {
+	.about {
+		grid-column: 1/2;
+		grid-row: 2/3;
+		min-width: 95%;
+	}
+}
+.customOpen {
+	cursor: url(../img/pokeball_open.png), auto;
+}
+.customClose {
+	cursor: url(../img/pokeball_close.png) 15 15, move;
+}
