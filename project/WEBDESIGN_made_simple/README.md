@@ -2,7 +2,7 @@
 
 ## 💻 Running
 
-Zur Seite —> - [Click Me](https://mukkez.github.io/Projects/WEBDESIGN_made_simple/)
+Zur Seite —> - [Click Me](https://mukkez.github.io/Projects/project/WEBDESIGN_made_simple/)
 
 <p align="left">
 </p>

@@ -2,7 +2,7 @@
 
 ## 💻 Running
 
-Zur Seite —> - [Click Me](https://mukkez.github.io/Projects/animated_css/)
+Zur Seite —> - [Click Me](https://mukkez.github.io/Projects/project/Animated_css/)
 
 <p align="left">
 </p>

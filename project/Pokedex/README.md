@@ -6,7 +6,7 @@ Erstellt habe ich ein Pokédex über die PokéAPI.
 
 ## 💻 Running
 
-Zur Seite —> - [Click Me](https://mukkez.github.io/Projects/Pokedex/)
+Zur Seite —> - [Click Me](https://mukkez.github.io/Projects/project/Pokedex/)
 
 <p align="left">
 </p>
