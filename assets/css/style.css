@@ -56,11 +56,13 @@ body {
 	margin: 15px 0 5px 0;
 	font-size: 1.5rem;
 }
+.content-tools {
+	color: white;
+	margin: 35px 0 -15px 0;
+}
 .content-skills {
 	font-size: 20px;
 	padding: 0;
-	margin-bottom: 0;
-	margin-top: 35px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

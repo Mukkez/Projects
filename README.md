@@ -4,14 +4,9 @@ Um etwas mehr Ordnung in die Projekte zubekommen, habe ich diese alle in einen O
 
 Die Projekt sind alle in dem Ordner 'project', bei jedem Projekt eine separate Readme Datei.
 
-## Dazu habe ich diese Übersichtsseite erstellt:
+## 💻 Dazu habe ich diese Übersichtsseite erstellt:
 
-## 💻 Running
-
-Zur Seite —> - [Projekt Sammlung](https://github.com/Mukkez/Projects)
-
-<p align="left">
-</p>
+Zur Seite —> - [Projekt Sammlung](https://mukkez.github.io/Projects/)
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
