@@ -80,7 +80,7 @@ const fetchPokemons = async () => {
 	dialogOak.style.display = 'none';
 
 	for (let i = 1; i <= pokemons_number; i++) {
-		await new Promise((resolve) => setTimeout(resolve, 350));
+		await new Promise((resolve) => setTimeout(resolve, 250));
 		await getPokemon(i);
 	}
 };
