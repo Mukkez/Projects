@@ -331,7 +331,7 @@ body {
 
 .dialog {
 	background: url(../img/background.png) center/cover no-repeat;
-	background-size: auto;
+	background-size: 100% 100%;
 	border: 1px solid rgba(0, 0, 0, 0.7);
 	border-radius: 1.5rem;
 	display: grid;
@@ -369,7 +369,7 @@ body {
 }
 
 .dialogCard {
-	display: flex;
+	/* display: flex; */
 	padding: 0.75rem 1.5rem;
 	background: #ecf0f1;
 	border-radius: 20px;
@@ -468,29 +468,41 @@ body {
 }
 @media screen and (max-width: 1183px) {
 	.dialog .oak {
-		grid-row: 2/2;
+		grid-row: 3/3;
 	}
 
 	.dialog .ash {
-		grid-row: 2/2;
+		grid-row: 3/3;
+	}
+	.pok-container {
+		grid-row: 3/3;
+		margin: 67px 0 0 0;
 	}
 }
 @media screen and (max-width: 1000px) {
-	.dialog .oak {
-		grid-row: 2/2;
-	}
-
-	.dialog .ash {
-		grid-row: 2/2;
-	}
 	.dialogCard {
-		height: 300px;
+		height: auto;
 	}
-	.pok-container {
-		margin: 135px 0 0 0;
+	.dialog .ash {
+		margin: 0 0 0 50px;
+	}
+	.pok {
+		width: 130px;
+		height: 130px;
 	}
 }
-
+@media screen and (max-width: 830px) {
+	.dialog {
+		background-size: auto;
+	}
+	.pok-container {
+		margin: 55px 0 0 0;
+	}
+	.pok {
+		width: 100px;
+		height: 100px;
+	}
+}
 /* ========================== Pokemon Home Site ========================== */
 .poke-container {
 	display: flex;
