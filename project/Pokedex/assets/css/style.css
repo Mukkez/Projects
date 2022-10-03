@@ -242,7 +242,7 @@ body {
 	width: 95%;
 	height: 80%;
 	background: url(../img/background.png) center/cover no-repeat;
-	background-size: 100% 100%;
+	background-size: auto;
 	border: 1px solid rgba(0, 0, 0, 0.7);
 	border-radius: 1.5rem;
 	overflow: hidden;
@@ -331,7 +331,7 @@ body {
 
 .dialog {
 	background: url(../img/background.png) center/cover no-repeat;
-	background-size: 100% 100%;
+	background-size: auto;
 	border: 1px solid rgba(0, 0, 0, 0.7);
 	border-radius: 1.5rem;
 	display: grid;

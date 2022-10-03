@@ -2,7 +2,7 @@
 
 Um etwas mehr Ordnung in die Projekte zubekommen, habe ich diese alle in einen Ordner verpackt.
 
-Die Projekt sind alle in dem Ordner 'project', bei jedem Projekt eine separate Readme Datei.
+Die Projekt sind alle in dem Ordner 'project', bei jedem Projekt ist eine separate Readme Datei dabei.
 
 ## 💻 Dazu habe ich diese Übersichtsseite erstellt:
 
