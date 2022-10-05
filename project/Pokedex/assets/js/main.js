@@ -2,6 +2,9 @@ let typ1 = '';
 let typ2 = '';
 let pokeEvolutionName = '';
 
+let mute = document.getElementById('muteModal');
+mute.innerHTML = `<span class="material-symbols-outlined mute-modal-symbol" style="font-size: 2.5rem"> volume_up </span>`;
+
 window.speechSynthesis.cancel();
 
 const dialogWelcome = document.getElementById('modulWelcome');
@@ -748,4 +751,10 @@ const close = document.getElementById('modal-name');
 function closePopup() {
 	window.speechSynthesis.cancel();
 	close.style.display = 'none';
+	mute.innerHTML = `<span class="material-symbols-outlined mute-modal-symbol" style="font-size: 2.5rem"> volume_up </span>`;
+}
+
+function mutePopup() {
+	mute.innerHTML = `<span class="material-symbols-outlined mute-modal-symbol" style="font-size: 2.5rem"> volume_off </span>`;
+	window.speechSynthesis.cancel();
 }

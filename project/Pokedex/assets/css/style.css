@@ -33,6 +33,7 @@ body {
 	margin: 0;
 	font-weight: 500;
 }
+
 .bisasam {
 	background: linear-gradient(180deg, #c2fbe4, #7ac74c);
 	background-attachment: fixed;
@@ -669,6 +670,14 @@ body {
 	font-size: 3rem;
 	padding: 10px;
 }
+.mute-modal {
+	cursor: pointer;
+	position: absolute;
+	right: -3px;
+	font-size: 3rem;
+	padding: 11px;
+	top: 7%;
+}
 /* ========================== Pokemon Popup Card  ========================== */
 
 .pokemonContainer {
@@ -1087,6 +1096,10 @@ body {
 		align-items: center;
 		align-content: center;
 		flex-direction: column;
+	}
+	.mute-modal {
+		right: 50px;
+		top: 0%;
 	}
 }
 @media screen and (max-width: 540px) {
