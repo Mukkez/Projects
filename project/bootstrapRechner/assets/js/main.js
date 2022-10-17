@@ -34,7 +34,7 @@ function bruttoZuNetto(eingabe) {
 }
 
 function ausgabeMwst(eingabe) {
-	mwstBetrag.innerHTML = runden(eingabe);
+	mwstBetrag.innerHTML = runden(eingabe) + ' €';
 }
 
 function ausgabeEndpreis() {
